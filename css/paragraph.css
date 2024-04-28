@@ -18,7 +18,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 36px;
+    font-size: 34px;
     font-style: italic;
     color: var(--dark);
 }
@@ -27,7 +27,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--dark);
 }
