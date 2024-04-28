@@ -21,7 +21,7 @@ header .logo-container{
 
 header .nav-container nav a{
     text-decoration: none;
-    margin-right: 16px; 
+    margin-right: 18px; 
     color: var(--lightOne);
     cursor: pointer;
     font-size: 18px;

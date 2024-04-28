@@ -1,0 +1,33 @@
+.paragraph-container{
+    width: 100%;
+    display: flex;
+    background-color: var(--lightOne);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paragraph-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 68%;
+}
+
+.paragraph-box .paragraph-one{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: var(--dark);
+}
+
+.paragraph-box .paragraph-two{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dark);
+}

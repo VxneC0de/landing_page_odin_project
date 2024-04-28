@@ -25,7 +25,7 @@
 }
 
 .main-text h1{
-    font-size: 50px;
+    font-size: 48px;
     margin: auto;
     color: var(--lightTwo);
 }
@@ -33,7 +33,7 @@
 .main-text p{
     margin: auto;
     color: var(--lightOne);
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .main-text button{
