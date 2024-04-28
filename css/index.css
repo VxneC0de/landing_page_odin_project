@@ -1,0 +1,35 @@
+@import "./header.css";
+@import "./main.css";
+@import "./img.css";
+@import "./paragraph.css";
+@import "./call.css";
+@import "./footer.css";
+
+:root{
+    --dark: #1F2937;
+    --lightOne: #E5E7EB;
+    --lightTwo: #F9FAF8;
+    --blue: #3882f6;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 800px){
+    section{
+        min-height: 0;
+        height: 100%;
+    }
+}

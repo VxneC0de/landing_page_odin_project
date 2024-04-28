@@ -1,0 +1,28 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--dark);
+    color: var(--lightTwo);
+    z-index: 99;
+}
+
+header .logo-container{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header .nav-container nav a{
+    text-decoration: none;
+    margin-right: 16px; 
+    color: var(--lightOne);
+    cursor: pointer;
+    font-size: 18px;
+}
