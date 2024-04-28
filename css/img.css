@@ -1,4 +1,4 @@
-.img-container{
+.img-container {
     width: 100%;
     display: flex;
     background-color: var(--lightTwo);
@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 
-.img-box{
+.img-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,27 +22,27 @@
 
 .box-images{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: nowrap;;
     flex-direction: row;
-    width: 80%;
+    gap: 25px;
+    width: 85%;
 }
 
 .box-item{
-    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 40%;
 }
 
 .box-item img{
-    width: 180px;
-    height: 180px;
     border: 2px solid var(--blue);
 }
 
 .box-item p{
+    font-size: 16px;
     text-align: center;
     color: gray;
 }
