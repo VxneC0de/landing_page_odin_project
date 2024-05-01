@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# Project Name
+# Landing Page Odin Project
 
 > This page is based on an Odin Project assignment, which involves creating a complete web page from a provided design. In the section, you could customize the content of the images according to your preference. In my case, I chose the theme of video games. The required tools used for this project were HTML, CSS, and Flexbox.
 
